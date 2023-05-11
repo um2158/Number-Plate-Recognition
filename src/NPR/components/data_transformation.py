@@ -11,7 +11,7 @@ from src.NPR.exception import CustomException
 from src.NPR.utils.utils import *
 from src.NPR.constants import *
 from glob import glob
-from tensorflow.keras.preprocessing.image import img_to_array, load_img
+from tensorflow.keras_preprocessing.image import img_to_array, load_img
 
 class DataTransformation:
     def __init__(self, data_transformation_config : DataTransformationConfig, data_ingestion_artifact:DataIngestionArtifacts):
