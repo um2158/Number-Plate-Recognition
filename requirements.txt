@@ -1,5 +1,5 @@
 pandas
-tensorflow==2.11
+tensorflow==2.10
 scikit-learn
 opencv-python-headless
 boto3==1.26.3
